@@ -8,6 +8,8 @@ import static org.junit.Assert.*;
 public class MainTest {
     @org.junit.Test
     public void showPattern() {
+        String expected = Main.showPattern(1);
+        assertEquals("The test failed", expected, Main.showPattern(1));
     }
 
 }
